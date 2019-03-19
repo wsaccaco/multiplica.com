@@ -1,0 +1,28 @@
+:host{
+  max-width: 250px;
+  width: 100%;
+  margin-bottom: 1.2em;
+}
+
+.card{
+  border: 1px solid #ccc;
+}
+
+.card-body{
+  padding: 10px;
+}
+
+.card-title{
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.card-description{
+  min-height: 2.5em;
+}
+
+.card-footer{
+  border-top: 1px solid #CCC;
+  padding: 10px;
+  background-color: #eee;
+}

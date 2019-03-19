@@ -1,0 +1,20 @@
+.input{
+  flex: 1;
+  font-size: 1em;
+  padding: .5em;
+  width: 100%;
+}
+
+:host{
+  padding: 0 10px;
+  width: 100%;
+}
+
+.app-form{
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}

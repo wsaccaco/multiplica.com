@@ -1,0 +1,47 @@
+.main{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrap-main{
+  flex: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrap-form{
+  display: flex;
+}
+
+.wrap-form{
+  flex: 3;
+}
+
+.app-filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  flex: 1;
+}
+
+.app-filter .search{
+  flex: 1;
+  font-size: 1em;
+  padding: .5em;
+}
+
+
+.app-filter .wrap-input{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+

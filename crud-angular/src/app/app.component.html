@@ -1,0 +1,19 @@
+
+<div class="main">
+  <div class="row">
+    <div class="app-filter">
+      <div class="wrap-input">
+        <input type="text"  class="search"  name="txt" [(ngModel)]="search" placeholder="Filter"/>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="wrap-main">
+      <app-card *ngFor="let service of services | filterServices : search" [service]="service"></app-card>
+    </div>
+    <div class="wrap-form">
+      <app-form></app-form>
+    </div>
+  </div>
+</div>
+

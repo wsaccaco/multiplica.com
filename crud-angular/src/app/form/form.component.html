@@ -1,0 +1,14 @@
+<div class="app-form">
+  <form [formGroup]="serviceForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <input type="text" placeholder="Titulo" required class="input" minlength="3" formControlName="title"/>
+    </div>
+    <div class="row">
+      <input type="text" placeholder="Descripción" required class="input" formControlName="description"/>
+    </div>
+    <div class="row">
+      <input type="submit" value="Guardar" [disabled]="!serviceForm.valid"/>
+      <input type="reset" value="Cancelar"/>
+    </div>
+  </form>
+</div>
